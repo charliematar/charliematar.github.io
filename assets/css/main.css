@@ -1859,7 +1859,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #53603b;
 		}
 
 	select {
@@ -1956,7 +1956,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #53603b;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2078,7 +2078,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #53603b;
 		}
 
 		.icon.style2 {
@@ -2487,7 +2487,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #a12215;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2497,7 +2497,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #a12215 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2505,7 +2505,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				background-color: #a12215 !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2604,7 +2604,6 @@ input, select, textarea {
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2788,7 +2787,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 0.5em 0 4em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -2871,7 +2870,7 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #21b2a6;
+					background: #53603b;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -2887,7 +2886,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #21b2a6;
+				color: #53603b;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -2980,7 +2979,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #53603b;
 			color: #d3d4e4;
 		}
 
@@ -3351,7 +3350,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #53603b;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
